@@ -28,3 +28,37 @@ body{
                 inset 0 15px 15px rgba(0,0,0,0.3);
 
 }
+
+.clock:before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 10000;
+}
+
+.clock .hour,
+.clock .min,
+.clock .sec{
+    position: absolute;
+}
+
+.clock .hour, .hr{
+    width:160px;
+    height: 160px;
+
+}
+
+.clock .min, .mn{
+    width:190px;
+    height: 190px;
+    
+}
+
+.clock .hour, .hr{
+    width:230px;
+    height: 230px;
+    
+}
